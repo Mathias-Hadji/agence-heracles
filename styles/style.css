@@ -20,7 +20,7 @@ body {
 }
 
 .title-menu {
-    font-family: Playfair Display, Arial, Helvetica, sans-serif;
+    font-family: Playfair Display, 'Times New Roman', Times, serif;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -102,8 +102,47 @@ body {
 
 .presentation {
     grid-area: 2 / 1 / 3 / 2;
-    background: lightgreen;
+    background: #6fb4ec;
+    padding: 40px;
 }
+
+.presentation img {
+    width: 80px;
+    height: 80px;
+}
+
+.presentation h1 {
+    font-family: Playfair Display, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.presentation p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.3;
+}
+
+.presentation a {
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    width: 170px;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+
+
+/* ------------------- Slider ------------------- */
 
 .slider {
     grid-area: 2 / 2 / 3 / -1;
