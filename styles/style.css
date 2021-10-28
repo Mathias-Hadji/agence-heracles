@@ -309,6 +309,15 @@ img.active {
 }
 
 
+/* ----------------- Footer ----------------- */
+
+footer {
+    border-top: 1px dashed #000;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
 /* ----------------- RESPONSIVE ----------------- */
 
 @media screen and (max-width: 1400px) {
