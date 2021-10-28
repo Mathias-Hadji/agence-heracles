@@ -309,4 +309,102 @@ img.active {
 }
 
 
+/* ----------------- RESPONSIVE ----------------- */
 
+@media screen and (max-width: 1400px) {
+    .container-medias {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .grid-home {
+        grid-template: 70px 500px minmax(300px,1fr) / 400px 1fr 400px;
+    }
+
+    .contact h3 {
+        font-size: 50px;
+        margin-left: 50px;
+    }
+
+    .go-contact {
+        width: 70px;
+        height: 70px;
+        margin-right: 55px;
+    }
+
+    .go-contact img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    .title-choice {
+        font-size: 35px;
+    }
+
+    .go-galerie {
+        font-size: 18px;
+        width: 250px;
+        padding: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .grid-home {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentation {
+        padding: 30px;
+    }
+
+    .presentation h1 {
+        font-size: 60px;
+        margin-top: 5px;
+    }
+
+    .slider {
+        height: 500px;
+    }
+
+    .title-choice {
+        font-size: 28px;
+        margin: 50px 10px 20px;
+    }
+
+    .go-galerie {
+        font-size: 18px;
+        width: 230px;
+        padding: 16px;
+        margin: 20px auto 50px;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .contact h3 {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .go-contact {
+        width: 70px;
+        height: 70px;
+        margin: 30px auto;
+    }
+
+    .go-contact img {
+        width: 35px;
+        height: 35px;
+    }
+}
