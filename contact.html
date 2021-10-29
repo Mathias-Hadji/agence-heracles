@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Heracles</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Menu -->
+
+    <nav class="menu">
+        <h2 class="title-menu">Menu</h2>
+        <ul class="list-menu">
+            <li class="item-nav"><a href="/">Accueil</a></li>
+            <li class="item-nav"><a href="/informations.html">Informations</a></li>
+            <li class="item-nav"><a href="/portfolio.html">Tous nos biens</a></li>
+            <li class="item-nav"><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <h1 class="title-contact">Nous contacter</h1>
+    <p class="contact-subtitle">Contactez-nous par mail, téléphone ou par la poste.</p>
+
+    <div class="container-box-contact">
+        <div class="box">
+            <img src="./ressources/placeholder.svg">
+            <span>9 rue des tonneliers, 88888 Paris</span>
+        </div>
+        <div class="box">
+            <img src="./ressources/phone-call.svg">
+            <span>+5 4568 4578</span>
+        </div>
+        <div class="box">
+            <img src="./ressources/email.svg">
+            <span>contact@heracles.com</span>
+        </div>
+    </div>
+
+
+    <!-- Formulaire -->
+
+    <form>
+        <h2>Parlez-nous de vos envies.</h2>
+
+        <label for="first-name" class="label-input">Votre prénom</label>
+        <input type="text" id="first-name" placeholder="Votre prénom">
+
+        <label for="last-name" class="label-input">Votre nom</label>
+        <input type="text" id="last-name" placeholder="Votre nom">
+
+        <label for="phone" class="label-input">Votre téléphone</label>
+        <input type="number" id="phone" placeholder="Votre téléphone">
+
+        <p class="title-check">Type de bien : </p>
+        <div class="group-check">
+            <label for="rent" class="labels-check">Louer</label>
+            <input type="checkbox" id="rent" name="rent">
+        </div>
+        <div class="group-check">
+            <label for="buy" class="labels-check">Acheter</label>
+            <input type="checkbox" id="buy" name="buy">
+        </div>
+
+        <label for="txt">Message</label>
+        <textarea id="txt" placeholder="Votre message"></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+
+    <!-- Footer -->
+
+    <footer>Tous droits réservés ©</footer>
+
+</body>
+</html>
