@@ -265,6 +265,11 @@ img.active {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.media:hover {
+    transform:scale(1.2);
 }
 
 .media img {
