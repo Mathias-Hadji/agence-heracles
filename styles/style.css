@@ -136,11 +136,11 @@ body {
     margin-top: 20px;
     cursor: pointer;
     display: block;
-    transition: all 0.2s ease-in-out;
+
 }
 
 .presentation a:hover {
-
+    transition: all 0.2s ease-in-out;
     background-color: #333;
     color: #fff;
 }
