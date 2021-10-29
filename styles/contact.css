@@ -37,6 +37,11 @@ body {
     display: block;
     margin: 0 auto 10px;
     width: 70px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.box img:hover {
+    transform: scale(1.2);
 }
 
 
